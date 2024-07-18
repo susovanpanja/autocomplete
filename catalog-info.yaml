@@ -31,6 +31,8 @@ metadata:
     environment: dev
     resource_group: rg_6757789
     cloud: azure
+  tags:
+    - database  
 spec:
   type: database
   owner: guests
