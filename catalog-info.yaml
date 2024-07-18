@@ -1,0 +1,14 @@
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Autocomplete
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: susovanpanja/autocomplete
+spec:
+  type: library
+  lifecycle: production
+  owner: guests
+  system: examples
