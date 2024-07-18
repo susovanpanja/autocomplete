@@ -27,6 +27,10 @@ kind: Resource
 metadata:
   name: artists-db
   description: Stores artist details
+  labels:
+    environment: dev
+    resource_group: rg_6757789
+    cloud: azure
 spec:
   type: database
   owner: guests
