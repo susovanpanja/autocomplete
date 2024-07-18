@@ -18,3 +18,4 @@ spec:
   system: examples
   dependsOn:
     - component:default/gemini-documentation
+  providesApis: [petstore]  
