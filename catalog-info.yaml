@@ -18,4 +18,16 @@ spec:
   system: examples
   dependsOn:
     - component:default/gemini-documentation
-  providesApis: [petstore]  
+    - resource:default/artists-db
+  providesApis: [petstore]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: artists-db
+  description: Stores artist details
+spec:
+  type: database
+  owner: guests
+  system: examples
