@@ -7,6 +7,10 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: susovanpanja/autocomplete
+  links:
+    - url: https://fig.io/docs/getting-started
+      title: Get Started
+      icon: dashboard  
 spec:
   type: service
   lifecycle: production
